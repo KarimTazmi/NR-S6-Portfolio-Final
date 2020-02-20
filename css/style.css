@@ -84,6 +84,19 @@ h4 {
   margin-left: 0.5rem;
 }
 
+.image__background {
+  background-color: var(--blue-color);
+  grid-column: 5 / span 3;
+  z-index: 1;
+  position: relative;
+  width: auto;
+  line-height: 0;
+}
+
+.image__opacity {
+  opacity: 0.4;
+}
+
 /* Navigation */
 .nav__main {
   display: grid;
@@ -157,22 +170,14 @@ h4 {
   position: absolute;
   z-index: 2;
   width: 70%;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
   color: #ffffff;
 }
 
-.about__image-background {
-  background-color: var(--blue-color);
-  grid-column: 5 / span 3;
-  z-index: 1;
-  position: relative;
-  width: auto;
-  line-height: 0;
-}
-
-.about__image {
-  opacity: 0.4;
+.about__content .showcase__link::after {
+  content: "→";
+  margin-left: 0.4rem;
 }
 
 /* Section 2: projects */
@@ -216,14 +221,8 @@ h4 {
   padding-bottom: 0;
 }
 
-.picture__bar-color {
-  background-color: var(--blue-color);
-  line-height: 0;
-}
-
 .picture__bar img {
   max-width: 100%;
-  opacity: 0.5;
 }
 
 /* Section 4: experience */

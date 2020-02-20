@@ -1,0 +1,63 @@
+/* Navigation */
+.nav__main {
+  grid-template-columns: 1fr;
+}
+
+.nav__main-items {
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: left;
+  padding-inline-start: 0;
+}
+
+/* First section: landing */
+.showcase {
+  font-size: 32px;
+}
+
+/* First 1.5: about */
+.about {
+  grid-template-columns: auto;
+  justify-items: left;
+}
+
+.about__content {
+  position: inherit;
+  font-size: 20px;
+width: auto;
+}
+
+.about__image-background {
+  position: inherit;
+  grid-column: auto;
+  width: 100%;
+}
+
+.about__image {
+    width: 100%;
+  }
+
+/* Section 2: Showcase */
+.project {
+  grid-template-columns: auto;
+}
+
+/* Section 4: experience */
+.experience__container {
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.experience__img {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+/* Section 5: courses */
+.courses__container {
+  grid-template-columns: auto;
+}
+
+/* Section 6: contact */
+.contact {
+  font-size: 32px;
+}

@@ -113,6 +113,8 @@ h4 {
 
 iframe {
   border: 1px solid var(--blue-color);
+  width: 70vw;
+  height: 70vh;
 }
 
 /* Navigation */
@@ -236,14 +238,24 @@ iframe {
   margin-bottom: 5px;
 }
 
+/*Section 1.9: Testimonial*/
+
 .testimonial {
   display: grid;
+  grid-gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 4rem;
   background-color: var(--black-color);
   color: #ffffff;
-  justify-items: center;
-  align-items: center;
+}
+
+.testimonial h3,
+.testimonial p {
+  margin-top: 0px;
+}
+
+.testimonial iframe {
+  grid-column: 1 / span 2;
+  width: 100%;
 }
 
 /* Section 2: projects */

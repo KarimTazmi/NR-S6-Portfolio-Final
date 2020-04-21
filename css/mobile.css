@@ -1,3 +1,11 @@
+/* Overal styling */
+
+.image__background {
+  grid-column: auto;
+  position: inherit;
+  width: 100%;
+}
+
 /* Navigation */
 .nav__main {
   grid-template-columns: 1fr;
@@ -18,26 +26,51 @@
 .about {
   grid-template-columns: auto;
   justify-items: left;
+  overflow: hidden;
 }
 
 .about__content {
-  position: inherit;
   font-size: 18px;
+}
+
+.image__background-transparent img {
+  width: auto;
+  height: auto;
+  opacity: 0.5;
+}
+
+.image__background-transparent {
+  grid-column: auto;
+}
+
+/* Section 1.75: Qualities */
+.qualities {
+  grid-template-columns: auto;
+  grid-gap: none;
+  background-image: url(../img/karim-tekent.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.qualities__item {
   width: auto;
 }
 
-.about__image-background {
-  position: inherit;
-  grid-column: auto;
-  width: 100%;
+.qualities__image {
+  display: none;
 }
 
-.about__image {
-  width: 100%;
+/*Section 1.9: Testimonial*/
+.testimonial {
+  grid-template-columns: auto;
+}
+
+.testimonial iframe {
+  grid-column: auto;
 }
 
 /* Section 2: Showcase */
-.project {
+.project__container {
   grid-template-columns: auto;
 }
 
@@ -55,6 +88,17 @@
 /* Section 5: courses */
 .courses__container {
   grid-template-columns: auto;
+}
+
+/* Section 5.5: Hobbys */
+.hobbys {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.hobbys img {
+  grid-column: auto;
+  width: 100%;
 }
 
 /* Section 6: contact */

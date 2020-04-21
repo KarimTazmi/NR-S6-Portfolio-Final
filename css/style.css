@@ -124,7 +124,6 @@ iframe {
   background-color: var(--black-color);
   color: #ffffff;
   padding: 20px 40px;
-  font-weight: 300;
 }
 
 .nav__main a:hover {
@@ -137,9 +136,15 @@ iframe {
 }
 
 .nav__main-logo {
+  color: var(--blue-color);
+
   margin-top: 15px;
   font-weight: 900;
   color: ;
+}
+
+.nav__main-logo p {
+  font-weight: 700;
 }
 
 .nav__main-items {

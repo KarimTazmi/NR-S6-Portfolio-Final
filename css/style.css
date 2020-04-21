@@ -111,6 +111,11 @@ h4 {
   opacity: 0.9;
 }
 
+iframe {
+  border: 1px solid var(--blue-color);
+  transform: rotate(7deg);
+}
+
 /* Navigation */
 .nav__main {
   display: grid;
@@ -230,6 +235,16 @@ h4 {
   color: #ffffff;
   margin-top: 0;
   margin-bottom: 5px;
+}
+
+.testimonial {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  background-color: var(--black-color);
+  color: #ffffff;
+  justify-items: center;
+  align-items: center;
 }
 
 /* Section 2: projects */
@@ -363,6 +378,20 @@ h4 {
 
 .courses__img img {
   height: 100%;
+  width: 100%;
+}
+
+/* Section 5.5: Hobbys */
+.hobbys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 4rem;
+  background-color: var(--blue-color);
+  color: #ffffff;
+}
+
+.hobbys img {
+  grid-column: 2 / span 3;
   width: 100%;
 }
 

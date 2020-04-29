@@ -35,7 +35,7 @@ a {
 
 ul {
   font-family: "stratos-lights", sans-serif;
-  font-size: 14px;
+  font-weight: 200;
 }
 
 p {
@@ -59,9 +59,13 @@ h2 {
   font-size: 24px;
 }
 
-h3,
-h4 {
+h3 {
   font-size: 19px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .top__heading {
@@ -330,6 +334,15 @@ iframe {
   opacity: 0.4;
 }
 
+.picture__bar-case {
+  padding-bottom: 0;
+}
+
+.picture__bar-case img {
+
+  max-width: 100%;
+}
+
 /* Section 4: experience */
 .experience {
   background-color: var(--black-color);
@@ -506,8 +519,8 @@ footer {
 
 .case__work-text {
   margin: auto;
-  color: #ffffff;
-  background-color: var(--black-color);
+  width: 1024px;
+  padding-bottom: 0;
 }
 
 .case__work__text-container {

@@ -105,3 +105,34 @@
 .contact {
   font-size: 32px;
 }
+
+/* Cases */
+.showcase__case {
+  font-size: 32px;
+}
+
+.case__work__text-container {
+  grid-template-columns: auto;
+  width: 100%;
+}
+
+.case__work-left {
+  grid-column: 1;
+}
+
+.case__work-right {
+  grid-column: 1;
+}
+
+.case__work-left h3 {
+  margin: 0;
+}
+
+.case__img {
+  grid-template-columns: auto;
+}
+
+.case__img-last {
+  grid-template-columns: auto;
+  justify-items: left;
+}

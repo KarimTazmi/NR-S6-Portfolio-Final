@@ -574,6 +574,10 @@ footer {
   width: 100%;
 }
 
+.case__img-last video {
+  width: 100%;
+}
+
 /* Animation */
 .fade-in {
   animation: fadeIn ease 3s;

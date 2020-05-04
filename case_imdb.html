@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio | Karim Tazmi</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/vvj2yvk.css" />
+    <script
+      src="https://kit.fontawesome.com/c43ce87073.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Meta information -->
+    <title>Data Analist | Karim Tazmi</title>
+    <meta name="description" content="Portfolio van Karim Tazmi" />
+    <meta
+      name="keywords"
+      content="Front-end Developer, Front-End, Portfolio, Grafisch Ontwerp"
+    />
+    <meta name="author" content="Karim Tazmi" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="nav__main">
+      <p class="nav__main-logo">
+        Karim Tazmi
+      </p>
+      <ul class="nav__main-items fade-in">
+        <li><a href="index.html#about">Over Karim</a></li>
+        <li><a href="index.html#projects">Projecten</a></li>
+        <li><a href="index.html#experience">Ervaring</a></li>
+        <li><a href="index.html#courses">Kennis</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="showcase__case">
+      <div class="strapline__container-case">
+        <h4 class="strapline__white">Noah Road</h4>
+        <h4 class="strapline__purple">Data Analyse — PostgreSQL & Tableau</h4>
+      </div>
+      <p class="fade-in">
+        <span class="showcase__first-word">Case:</span> IMDB Dashboard
+      </p>
+    </section>
+
+    <section class="case__work">
+      <video
+        src="./video/IMDB-Dashboard-overview.mp4"
+        type="video/mp4"
+        autoplay
+        loop
+      ></video>
+      <div class="case__work__text-container">
+        <div class="case__work-left">
+          <h3>
+            Over de opdracht
+          </h3>
+        </div>
+
+        <div class="case__work-right">
+          <p>
+            Dit dashboard is ontstaan vanuit een groepsopdracht van Noah Road.
+            Samen met 2 anderen hebben we alle tabellen met behulp van
+            PostgreSQL en Python gemaakt. Zo kan je per jaar een overzicht zien
+            van de beste films, acteurs en andere relevante data.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="case__img">
+      <div>
+        <h3>Datasets combineren met PostgreSQL</h3>
+        <p>
+          Om het project beter te verdelen was iedereen verantwoordelijk voor
+          zijn eigen onderdeel van het dashboard. Zo was één van ons
+          verantwoordelijk voor alle fotos en iemand anders verantwoordelijk
+          voor alle overkoepelende data zoals het aantal stemmen per jaar. Zelf
+          was ik verantwoordelijk voor het uitdenken van de genre's en hoe we
+          dit op een gewogen manier konden invoeren.
+        </p>
+      </div>
+      <img src="/img/stay_in_the_flow_cropped2.png" alt="" />
+    </section>
+
+    <section class="case__img">
+      <video
+        src="./video/Dashboard-video-1.mp4"
+        type="video/mp4"
+        autoplay
+        loop
+      ></video>
+      <div>
+        <h3>Genre's en gemiddeldes</h3>
+        <p>
+          Zelf ben ik verantwoordelijk geweest voor alle data met betrekking tot
+          de genres en heb ik het dashboard gevisualiseerd. Alle films hadden
+          vaak meer dan één genre. Op dit moment zijn alle genre's gesplitst en
+          en individueel gewogen om zo een beter beeld te geven van het verloop
+          van genre's gedurende de afgelopen 70 jaar.
+          <br />
+          <br />
+          Als referentiekader heb ik een Fixed running average toegevoegd om het
+          gemiddelde van de hele dataset te laten zien.
+        </p>
+      </div>
+    </section>
+
+    <section class="case__img">
+      <div>
+        <h3>Koppelen van afbeeldingen aan dataset</h3>
+        <p>
+          Per acteur en film is er een afbeelding beschikbaar om te tonen. Dit
+          is via een Python script uit IMDB gehaald. Binnen tableau zijn er
+          verschillende acties aan het jaartal filter gekoppeld om deze per
+          acteur en jaar te matchen.
+        </p>
+      </div>
+      <video
+        src="./video/Dashboard-video-3.mp4"
+        type="video/mp4"
+        autoplay
+        loop
+      ></video>
+    </section>
+
+    <section class="case__img-last">
+      <video
+        src="./video/Dashboard-video-2.mp4"
+        type="video/mp4"
+        autoplay
+        loop
+      ></video>
+      <div>
+        <h3>De beste film en acteurs</h3>
+        <p>
+          Omdat er in de dataset meerder acteurs bestaan met zeer hoge ratings
+          moest hier een gewogen keuze in gemaakt worden. Per acteur hebben we
+          de voorwaarde gesteld dat hij/zij in een minimaal aantal films moet
+          hebben gespeeld en dat daarvan een gemiddelde uit komt. Zo sla je
+          onbekende acteurs met een hoge rating (op basis van een enkele film)
+          over. Zo blijven de resultaten herkenbaar.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <p>
+        <span class="contact__first-word">Hallo!</span> Meer informatie nodig?
+        <br />Voor vragen kan je mij altijd
+        <a href="mailto:karimtazmi@gmail.com">mailen</a>. Je kan me ook een
+        bericht sturen via
+        <a href="https://nl.linkedin.com/in/karimtazmi" target="_blank"
+          >LinkedIn</a
+        >.
+      </p>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <p class="footer__logo">Karim Tazmi</p>
+      <p>Copyright &copy; 2020 Karim Tazmi</p>
+    </footer>
+  </body>
+</html>
